@@ -97,7 +97,7 @@ The [payment-idempotency.sql](Examples/payment-idempotency.sql) example shows a 
 
 **How I'd improve it:** I'd add suitable headers and test them against the site's existing integrations. For CSP in particular, I'd start with a policy that works with Next.js scripts, analytics, and Cashfree checkout, then tighten it after testing rather than applying a policy that breaks the site.
 
-You can see [next.config.example.mjs](examples/next.config.example.mjs) for a proposed config
+You can see [next.config.example.mjs](Examples/next.config.example.mjs) for a proposed config
 
 ## 3. One additional security observation
 
