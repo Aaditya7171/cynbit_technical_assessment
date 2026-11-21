@@ -58,7 +58,7 @@ try {
 }
 ```
 
-You can See [recovery.mjs](examples/recovery.mjs) for an example
+You can See [recovery.mjs](Examples/recovery.mjs) for an example
 
 ### 2. Payment verification messages
 
@@ -79,7 +79,7 @@ if (status === "PAID") {
 }
 ```
 
-The [payment-idempotency.sql](examples/payment-idempotency.sql) example shows a possible database-side approach as a design example
+The [payment-idempotency.sql](Examples/payment-idempotency.sql) example shows a possible database-side approach as a design example
 
 ### 3. Caching and performance
 
